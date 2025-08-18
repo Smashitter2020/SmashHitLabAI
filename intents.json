@@ -1,0 +1,10 @@
+{
+  "intent": "ExplainSegmentXML",
+  "utterances": ["What is a segment XML?", "How do I edit a segment?", "Can I add new obstacles to a segment?"],
+  "response": "Segment XMLs define the layout of obstacles and scenery in Smash Hit. Each segment includes nodes like <obstacle>, <box>, and <segment>."
+}
+{
+  "intent": "ExplainMgFunctions",
+  "utterances": ["What are main game functions?", "How do main game functions work?", "Explain Mg functions", "What does MgFogColor do?", "Tell me about MgSegment"],
+  "response": "Main game functions in Smash Hit includes functions such as MgFogColor, MgSegment, and MgEcho."
+}
