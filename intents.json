@@ -1,15 +1,27 @@
 {
-  "intent": "ExplainSegmentXML",
-  "utterances": ["What is a segment XML?", "How do I edit a segment?", "Can I add new obstacles to a segment?"],
-  "response": "Segment XMLs define the layout of obstacles and scenery in Smash Hit. Each segment includes nodes like <obstacle>, <box>, and <segment>."
-}
-{
-  "intent": "ExplainMgFunctions",
-  "utterances": ["What are main game functions?", "How do main game functions work?", "Explain Mg functions", "What does MgFogColor do?", "Tell me about MgSegment"],
-  "response": "Main game functions in Smash Hit include MgFogColor (controls fog color), MgSegment (manages segment logic), and MgEcho (handles echo effects). These are scripted in Lua."
-}
-{
-  "intent": "ExplainMods",
-  "utterances": ["What is Smash Hit Frosbite?", "What is Smash Hit Time Attack?", "What is Smash Hit Flatbread?", "Explain the mods"],
-  "response": "Smash Hit Frostbite features 8 different checkpoints, Smash Hit Time Attack features standard 11 checkpoints with timer powerups that replenish you 10 seconds, and Smash Hit Flatbread is a challenging mod from April Fools 2025."
-}
+  {
+    "intent": "ExplainSegmentXML",
+    "utterances": ["What is a segment XML?", "How do I edit a segment?", "Can I add new obstacles to a segment?"],
+    "response": "Segment XMLs define the layout of obstacles and scenery in Smash Hit. Each segment includes nodes like <obstacle>, <box>, and <segment>."
+  },
+  {
+    "intent": "ExplainMgFunctions",
+    "utterances": ["What are main game functions?", "How do main game functions work?", "Explain Mg functions", "What does MgFogColor do?", "Tell me about MgSegment"],
+    "response": "Main game functions in Smash Hit include MgFogColor (controls fog color), MgSegment (manages segment logic), and MgEcho (handles echo effects). These are scripted in Lua."
+  },
+  {
+    "intent": "ExplainMods",
+    "utterances": ["What is Smash Hit Frosbite?", "What is Smash Hit Time Attack?", "What is Smash Hit Flatbread?", "Explain these mods"],
+    "response": "Smash Hit Frostbite features 8 different checkpoints, Smash Hit Time Attack features standard 11 checkpoints with timer powerups that replenish you 10 seconds, and Smash Hit Flatbread is a challenging mod from April Fools 2025."
+  },
+  {
+    "intent": "ExplainCommunityMods",
+    "utterances": ["What are community mods?", "What is Retro Mods?", "What is SHL Mods?"],
+    "response": "Community mods created by the members of the broader Smash Hit modding community, and can be submitted here. Retro mods do not likely to receive updates anymore released in/before 2023. SHL mods are created by the Smash Hit Lab Dev Team."
+  },
+  {
+    "intent": "ExplainModIssues",
+    "utterances": ["My mod is experiencing issues", "I have an issue with my mod", "My mod has an issue and its not working"],
+    "response": "If you are experiencing issues with SHL mods, this is because the mods that might contain bugs or crashes that can occur at any time. You can submit a bug report to migrate the issue here at any time."
+  }
+};
