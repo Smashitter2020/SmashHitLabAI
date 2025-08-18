@@ -1,4 +1,4 @@
-{
+[
   {
     "intent": "ExplainSegmentXML",
     "utterances": ["What is a segment XML?", "How do I edit a segment?", "Can I add new obstacles to a segment?"],
@@ -22,6 +22,11 @@
   {
     "intent": "ExplainModIssues",
     "utterances": ["My mod is experiencing issues", "I have an issue with my mod", "My mod has an issue and its not working"],
-    "response": "If you are experiencing issues with SHL mods, this is because the mods that might contain bugs or crashes that can occur at any time. You can submit a bug report to migrate the issue here at any time."
+    "response": "If you are experiencing issues with SHL mods, it might contain bugs or crashes, and you can migrate the issue here such as Smash Hit Time Attack."
+  },
+  {
+    "intent": "ExplainModBlueprints",
+    "utterances": ["What are mod blueprints?", "Explain mod blueprints"]
+    "response": "Mod blueprints are presets that have custom mechanics that made for people to edit as per liking, with every blueprint it comes from KnShim, made by knot126, and here is a blueprint example named Fourth Power-up Blueprint."
   }
-};
+]
