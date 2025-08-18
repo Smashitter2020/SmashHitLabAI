@@ -6,5 +6,10 @@
 {
   "intent": "ExplainMgFunctions",
   "utterances": ["What are main game functions?", "How do main game functions work?", "Explain Mg functions", "What does MgFogColor do?", "Tell me about MgSegment"],
-  "response": "Main game functions in Smash Hit includes functions such as MgFogColor, MgSegment, and MgEcho."
+  "response": "Main game functions in Smash Hit include MgFogColor (controls fog color), MgSegment (manages segment logic), and MgEcho (handles echo effects). These are scripted in Lua."
+}
+{
+  "intent": "ExplainMods",
+  "utterances": ["What is Smash Hit Frosbite?", "What is Smash Hit Time Attack?", "What is Smash Hit Flatbread?", "Explain the mods"],
+  "response": "Smash Hit Frostbite features 8 different checkpoints, Smash Hit Time Attack features standard 11 checkpoints with timer powerups that replenish you 10 seconds, and Smash Hit Flatbread is a challenging mod from April Fools 2025."
 }
