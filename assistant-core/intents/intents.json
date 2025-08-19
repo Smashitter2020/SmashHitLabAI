@@ -26,7 +26,12 @@
   },
   {
     "intent": "ExplainModBlueprints",
-    "utterances": ["What are mod blueprints?", "Explain mod blueprints"]
+    "utterances": ["What are mod blueprints?", "Explain mod blueprints"],
     "response": "Mod blueprints are presets that have custom mechanics that made for people to edit as per liking, with every blueprint it comes from KnShim, made by knot126, and here is a blueprint example named Fourth Power-up Blueprint."
+  },
+  {
+    "intent": "ExplainDocumentation",
+    "utterances": ["What is documentation?", "Explain documentation"],
+    "response": "Documentation in Smash Hit Lab can be seen in modding guide, mod blueprints, and modding tools for Smash Hit."
   }
 ]
