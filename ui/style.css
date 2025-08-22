@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+  font-family: "Lexend", sans-serif;
+}
+
+.dark {
+  --input-text-color: white;
+  --input-bg-color: #333;
+  --input-placeholder-color: #aaa;
+  --bg-color: #222;
+  --button-disabled-bg: #666;
+  --button-disabled-color: #aaa;
+  --text-message-color: white;
+}
+.light {
+  --input-text-color: black;
+  --input-bg-color: #eee;
+  --input-placeholder-color: #777;
+  --bg-color: #f0f0f0;
+  --button-disabled-bg: #ccc;
+  --button-disabled-color: #888;
+  --text-message-color: black;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--bg-color);
+}
+.container {
+  padding: 20px;
+  min-height: 100vh;
+}
+.bottom-nav {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  background: var(--bg-color);
+}
+.textPrompt {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+}
+
+.promptField {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.promptField input {
+  appearance: none;
+  border: none;
+  font-size: 16px;
+  padding: 10px 15px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  background: var(--input-bg-color);
+  color: var(--input-text-color);
+}
+
+.promptField input::placeholder {
+  color: var(--input-placeholder-color);
+}
+.textPrompt .sendButton {
+  appearance: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  color: white;
+  background: #2f90eb;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+  transition: 0.15s ease;
+  &:hover {
+    background: #1474ce;
+  }
+  &:active {
+    background: #1165b4;
+  }
+}
+.textPrompt .sendButton:disabled {
+  pointer-events: none;
+  background: var(--button-disabled-bg);
+  color: var(--button-disabled-color);
+}
+
+/* Message containers */
+.userMessage {
+  padding: 20px;
+  background: #2f90eb;
+  color: white;
+  float: right;
+  border-radius: 10px;
+  line-height: 1.5;
+}
+
+.AIMessage {
+  background: rgb(0,0,0,0.1);
+  padding: 20px;
+  line-height: 1.5;
+  border-radius: 10px;
+  clear: both;
+  color: var(--text-message-color);
+}
+
+.AIMessage, .userMessage {
+  margin-bottom: 20px;
+}
