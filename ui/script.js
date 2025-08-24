@@ -8,3 +8,8 @@ input.addEventListener('input', () => {
     button.disabled = false;
   }
 });
+
+button.addEventListener('click', () => {
+  input.value = "";
+  button.disabled = true;
+});
