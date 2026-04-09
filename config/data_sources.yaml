@@ -1,0 +1,38 @@
+github_repos:
+  - name: "Smash Hit Lab Docs"
+    url: "https://github.com/SmashHitLab/docs"
+    include:
+      - "**/*.md"
+      - "**/*.txt"
+    exclude:
+      - "LICENSE"
+      - "**/assets/**"
+
+  - name: "Smash Hit Blender Tools"
+    url: "https://github.com/SmashHitLab/smash-hit-blender-tools"
+    include:
+      - "**/*.md"
+    exclude:
+      - "**/images/**"
+
+  - name: "Mesh-Bake"
+    url: "https://github.com/SmashHitLab/mesh-bake"
+    include:
+      - "**/*.md"
+
+wiki-pages:
+  base_url: "https://raw.githubusercontent.com/wiki/SmashHitLab/docs"
+  pages:
+    - "Modding-Starter-Guide.md"
+    - "Segments.md"
+    - "Rooms.md"
+    - "Levels.md"
+    - "Mesh-Format.md"
+    - "UI-XML.md"
+    - "Tools.md"
+    - "Android-Setup.md"
+    - "Android-Setup-Without-PC.md"
+
+output_paths:
+  raw: "data/raw"
+  processed: "data/processed"
